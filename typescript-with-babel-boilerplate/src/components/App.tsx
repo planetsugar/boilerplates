@@ -4,7 +4,7 @@ class App extends React.PureComponent {
 	render() {
 		return (
 			<div>
-				<h1>Hello World - if you can see this then it is working.</h1>
+				<h1>Hello World - if you can see this then typescript with babel is working correctly.</h1>
 			</div>
 		);
 	}

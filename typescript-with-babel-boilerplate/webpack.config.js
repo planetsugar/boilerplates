@@ -28,9 +28,8 @@ module.exports = {
     template: './src/index.html'
   })],
   devServer: {
-      contentBase: path.join(__dirname, 'dist'),
+      // Enable gzip compression
       compress: true,
       port: 3000,
-      publicPath: '/'
   }
 };
