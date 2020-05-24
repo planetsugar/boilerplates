@@ -24,13 +24,10 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  plugins: [new HtmlWebpackPlugin({
-    template: './src/index.html'
-  })],
+  plugins: [new HtmlWebpackPlugin()],
   devServer: {
-      contentBase: path.join(__dirname, 'dist'),
+      // Enable gzip compression
       compress: true,
       port: 3000,
-      publicPath: '/'
   }
 };
