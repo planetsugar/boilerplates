@@ -26,6 +26,7 @@
 			"es2017.object",
 			"dom"
 		],
+		"rootDirs": ["src", "stories"],
 		"module": "es6",
 		"removeComments": true,
 		"alwaysStrict": true,
